@@ -1,0 +1,42 @@
+# OS / IDE
+.DS_Store
+.history
+.svn/
+*.class
+*.log
+*.pyc
+*.swp
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart (Global patterns for all subdirectories)
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/doc/api/
+
+# iOS / Android artifacts
+**/ios/Flutter/.last_build_id
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# FVM (Flutter Version Management)
+**/.fvm/
+
+# Project Specifics
+**/lib/Firebase_options.dart
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
